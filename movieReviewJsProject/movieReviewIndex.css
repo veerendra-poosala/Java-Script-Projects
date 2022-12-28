@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.movie-review-container {
+    font-family: Roboto;
+    padding: 10px;
+
+}
+
+.main-heading {
+    font-size: 30px;
+    font-weight: bold;
+    color: #2d3a35;
+    margin-left: 30px;
+}
+
+input::placeholder {
+    font-size: 12px;
+}
+
+textarea::placeholder {
+    font-size: 12px;
+}
+
+.sub-heading {
+    font-weight: bolder;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #7b8794;
+
+}
+
+.review-heading {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.review-paragraph {
+    font-size: 14px;
+}
