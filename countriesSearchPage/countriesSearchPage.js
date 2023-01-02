@@ -14,7 +14,7 @@ function createAndAppendCountries(country) {
     //console.log(name, flag, population);
 
     let containerCard = document.createElement('div');
-    containerCard.classList.add('col-12', 'col-md-6', 'd-flex', 'flex-row', 'country-card');
+    containerCard.classList.add('col-12', 'col-md-5', 'd-flex', 'flex-row', 'country-card','mr-1','ml-1');
     resultCountries.appendChild(containerCard);
 
     let brEle = document.createElement('br');
