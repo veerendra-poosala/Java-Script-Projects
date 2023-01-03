@@ -74,6 +74,7 @@ searchInput.addEventListener('keydown', function() {
     //console.log(event.key)
 
     if (event.key === 'Enter') {
+        searchResults.innerHTML = '';
         spinner.classList.toggle('d-none');
         pressEnterBtn();
     }
