@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Monoton&family=Open+Sans:wght@400;700&family=Playfair+Display+SC:wght@400;700&family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&family=Source+Sans+Pro:wght@400;700&family=Work+Sans:wght@400;700&display=swap");
+
+.add-user-bg-container {
+    font-family: Roboto;
+    padding: 10px;
+}
+
+.add-user-main-heading {
+    font-size: 36px;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.label-element {
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.input-element {
+    width: 250px;
+}
+
+.err-msg {
+    color: #EF3D0F;
+    font-weight: bold;
+    font-size: 14px;
+}

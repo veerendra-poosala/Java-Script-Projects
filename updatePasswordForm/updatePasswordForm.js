@@ -3,6 +3,7 @@ let confirmPassword = document.getElementById('confirmPassword');
 let newPasswordErrMsg = document.getElementById('newPasswordErrMsg');
 let confirmPasswordErrMsg = document.getElementById('confirmPasswordErrMsg');
 let updatePasswordForm = document.getElementById('updatePasswordForm');
+let successMsg = document.getElementById('successMsg');
 
 newPassword.addEventListener('blur', function(event) {
     if (event.target.value === '') {
@@ -37,7 +38,7 @@ updatePasswordForm.addEventListener('submit', function(event) {
     } else {
         newPassword.value = '';
         confirmPassword.value = '';
-        console.log('login successfully');
+        successMsg.textContent = 'Login Successfully :)'
     }
 
 });
