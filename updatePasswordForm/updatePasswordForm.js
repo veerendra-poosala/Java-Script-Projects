@@ -8,6 +8,7 @@ let successMsg = document.getElementById('successMsg');
 newPassword.addEventListener('blur', function(event) {
     if (event.target.value === '') {
         newPasswordErrMsg.textContent = 'Required*';
+        successMsg.textContent = ''
 
     } else {
         newPasswordErrMsg.textContent = '';
@@ -17,6 +18,7 @@ newPassword.addEventListener('blur', function(event) {
 confirmPassword.addEventListener('blur', function(event) {
     if (event.target.value === '') {
         confirmPasswordErrMsg.textContent = 'Required*';
+        successMsg.textContent = ''
     } else {
         confirmPasswordErrMsg.textContent = '';
     }
@@ -28,13 +30,16 @@ updatePasswordForm.addEventListener('submit', function(event) {
     confirmPasswordErrMsg.textContent = '';
     if (newPassword.value === '') {
         newPasswordErrMsg.textContent = 'Required*';
+        successMsg.textContent = ''
     }
     if (confirmPassword.value === '') {
         confirmPasswordErrMsg.textContent = 'Required*';
+        successMsg.textContent = ''
 
     }
     if (newPassword.value !== confirmPassword.value) {
         confirmPasswordErrMsg.textContent = 'Password must be same';
+        successMsg.textContent = ''
     } else {
         newPassword.value = '';
         confirmPassword.value = '';

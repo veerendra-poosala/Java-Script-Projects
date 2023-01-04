@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Monoton&family=Open+Sans:wght@400;700&family=Playfair+Display+SC:wght@400;700&family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&family=Source+Sans+Pro:wght@400;700&family=Work+Sans:wght@400;700&display=swap");
+
+.bg-container {
+
+    background-color: #F26279;
+    background-size: cover;
+    height: 100vh;
+    padding: 10px;
+    font-family: Roboto;
+}
+
+.main-heading {
+    color: #FBF6F7;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+}
+
+.form-bg-container {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #FBF6F7;
+    background-size: cover;
+    border-radius: 18px;
+}
+
+.form-main-heading {
+    color: #504446;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Bree Serif;
+    margin-bottom: 10px;
+}
+
+.label-city-name {
+    color: #424040;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.wrong-answer {
+    color: #F9294A;
+    font-family: Bree Serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.correct-answer {
+    color: #0AB61B;
+    font-family: Bree Serif;
+    font-weight: 500;
+    font-size: 18px;
+}

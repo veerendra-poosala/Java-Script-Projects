@@ -27,3 +27,9 @@
     font-weight: bold;
     font-size: 14px;
 }
+.correct-answer {
+    color: #0AB61B;
+    font-family: Bree Serif;
+    font-weight: 500;
+    font-size: 18px;
+}

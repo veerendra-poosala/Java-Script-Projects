@@ -36,3 +36,14 @@ sendPostRequestBtn.onclick = function() {
 };
 
 //{"id":23655,"name":"Ravi","email":"xyz12374@gmail.com","gender":"male","status":"active"}
+
+//{"id":30813,"name":"amaleswar","email":"xyz12374@gmail.com","gender":"male","status":"active"}
+
+/*{
+"name":"sri ram",
+"email": "sriram12345@gmail.com",
+"gender":"Male",
+"status":"Active"
+
+}
+*/
