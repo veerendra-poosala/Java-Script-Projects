@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='speedTypingTest.css'/>
+</head>
+
+<body>
+    <div class="container-fluid bg-container">
+        <div class="row">
+            <div class="col-12">
+                <div id="speedTypingTest" class="speed-typing-test">
+                    <h1 class="speed-typing-test-main-heading">Speed Typing Test</h1>
+                    <p class="tag-line">On your fingers lets set Go!</p>
+                    <div class="d-flex flex-row mt-2 mb-2">
+                        <div class="mr-2">
+                            <img src="https://assets.ccbp.in/frontend/dynamic-webapps/clock-img.png" class="timer-img" />
+                        </div>
+                        <div class="ml-2">
+                            <p id="timer" class="timer-seconds-paragraph"><span id="spanElement" class="ml-1 span-element mr-1">0</span>seconds</p>
+                        </div>
+                    </div>
+
+                    <div class="p-2 quote-display-bg-container text-center mb-2">
+                        <div id="spinner" class="mt-2 spinner-border text-dark d-none" role="status">
+                            <span class="sr-only">Loading...</span>
+                        </div>
+                        <p id="quoteDisplay" class="quote-display"></p>
+                        <textarea class="form-control text-area-element mb-3 mt-1" id="quoteInput" rows="5">
+
+                        </textarea>
+
+
+                    </div>
+                    <div class="mt-1 mb-3 text-center">
+
+                        <p id="result" class="result-paragraph text-center"></p>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center">
+                        <button id="submitBtn" class="btn  submit-button mr-2">Submit</button>
+                        <button id="resetBtn" class="btn  reset-button ml-3">Reset</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src='speedTypingTest.js'></script>
+</body>
+
+</html>

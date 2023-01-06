@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bookmarkMaker.css" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div id="row" class="row">
+            <div class="col-12 mt-4 p-2">
+                <div class="bookmark-form-outer-container shadow-lg ">
+                    <h1 class="heading-greeting mt-4 ml-2">Hello</h1>
+                    <h1 class="heading-name ml-2">Jane Doe</h1>
+
+                    <div class="bookmark-form-bg-container shadow-md">
+
+                        <form id="bookmarkForm">
+
+                            <div>
+                                <h1 class="form-heading  mt-4 mb-2">Bookmark Your Favorite Sites</h1>
+                            </div>
+                            <div class="mt-5 p-2 mb-2">
+                                <label class=" ml-2 label-element" for="siteNameInput">SITE NAME</label>
+                                <input class="form-control" type="text" id="siteNameInput" />
+                                <p class="err-msg mt-1" id="siteNameErrMsg"></p>
+                            </div>
+                            <div class="p-2 mb-2">
+                                <label class="ml-2 label-element" for="siteUrlInput">SITE URL</label>
+                                <input class="form-control" type="text" id="siteUrlInput" />
+                                <p class="err-msg mt-1" id="siteUrlErrMsg"></p>
+                            </div>
+                            <div class="text-center">
+                                <button id="submitBtn" class="button mt-2 nb-2 btn btn-primary">Submit</button>
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                    <div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-11">
+                <div class="">
+                    <ul id="bookmarksList">
+
+                    </ul>
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+    <script src="bookmarkMaker.js"></script>
+</body>
+
+</html>
