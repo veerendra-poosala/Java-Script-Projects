@@ -1,0 +1,19 @@
+Introduction
+Find the Fact of the Number is a web application that allows users to find the truth or fact of a number.
+
+Features
+Enter a number and get the truth or fact of that number displayed on the screen.
+Uses JavaScript for the front-end and REST APIs for the back-end.
+
+How to Use
+Go to the Find the Fact of the Number web app at [insert URL here].
+Enter a number in the input field.
+Click the "Find the Fact" button.
+The truth or fact of the number will be displayed on the screen.
+
+Technologies Used
+JavaScript
+REST APIs
+
+Conclusion
+Find the Fact of the Number is a simple and easy-to-use web app that allows users to quickly find the truth or fact of a number. It utilizes JavaScript for the front-end and REST APIs for the back-end, making it a reliable and efficient tool.
